@@ -5,7 +5,7 @@ def f(x):
     return x*x
 
 if __name__ == "__main__":
-    N = [10, 1000, 10000]
+    N = [10, 1000, 100000]#0を追加
     print("単純実装")
     for n in N:
         start = time.time()
